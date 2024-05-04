@@ -1,0 +1,109 @@
+*{
+    /*Remove margens e espaços internos dos elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*Display flex e quebra da linha se não couber na tela*/
+    display: flex;
+    margin: 3px;
+    background-color: #282A36;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #44475A;
+}
+nav{
+    width: 90%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.lista-menu{
+    display: flex;
+    gap: 40px;
+}
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-menu:hover{
+    box-shadow:0 3px 10px 0 #CCC;
+    text-shadow:0px 0px 5px #fff;
+}
+.lista-menu li a{
+    text-decoration: none;
+    color: #F8F8F2;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.lista-menu li a:hover{
+    color: #F1FA8C;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 35px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #44475A;
+    border-radius: 10px;
+
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around; /* Para distribuir as colunas igualmente */
+    width: 100%;
+}
+
+.row-footer {
+    display: flex;
+}
+
+.footer-coluna {
+    flex: 1; /* As colunas ocuparão a mesma largura */
+    margin: 0 10px; 
+}
+
+.footer-coluna h4 {
+    margin-bottom: 10px; 
+    color: #F1FA8C;
+}
+.footer-coluna li{
+    text-decoration: none;
+    color: #F8F8F2;
+    margin-bottom: 5px;
+}
+.footer-coluna a{
+    text-decoration: none;
+    color: #F8F8F2;
+    margin-bottom: 5px;
+}
+.footer-coluna a:hover{
+    color: #BD93F9;
+    padding-left: 10px;
+}
+ul {
+    list-style: none; 
+    padding: 0; 
+}
+
