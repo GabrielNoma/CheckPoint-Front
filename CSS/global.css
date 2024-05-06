@@ -41,10 +41,6 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.item-menu:hover{
-    box-shadow:0 3px 10px 0 #CCC;
-    text-shadow:0px 0px 5px #fff;
-}
 .lista-menu li a{
     text-decoration: none;
     color: #F8F8F2;
