@@ -10,6 +10,7 @@ main{
     margin: 20px;
 }
 
+
 section{
     margin: 30px;
 }
@@ -21,9 +22,15 @@ section{
     margin: 30px;
     gap: 25px;
 }
-
 header{
     font-size: 30px;
+    color: #F1FA8C;
+}
+.genero{
+    font-size: 30px;
+    background-color: #44475A;
+    color: #F1FA8C;
+    border-radius: 20px;
 }
 
 h1{
