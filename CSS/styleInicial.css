@@ -29,6 +29,7 @@ section{
     gap: 25px;
     width: 200px;
     justify-content: center;
+    align-items: center;
     margin: 50px;
 }
 .cartaz img{
