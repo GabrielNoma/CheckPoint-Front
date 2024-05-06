@@ -18,6 +18,11 @@ main{
     margin-bottom: 20px;
     font-size: 30px;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .cartaz{
     display: flex;
     flex-direction: column;
@@ -32,8 +37,11 @@ main{
     border-radius: 5px;
 }
 .destaques{
+    color: #282A36;
+    background-color: #F1FA8C;
     display: flex;
     justify-content: space-around;
+    border-radius: 20px;
 }
 label{
     color: #F1FA8C;
