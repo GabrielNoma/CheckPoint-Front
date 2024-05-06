@@ -7,6 +7,9 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 5%;
     display: flex;
@@ -33,6 +36,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.item-menu:hover{
+    box-shadow:0 3px 10px 0 #CCC;
+    text-shadow:0px 0px 5px #fff;
+}
 .lista-menu li a{
     text-decoration: none;
     color: #F8F8F2;
@@ -41,16 +48,21 @@ nav{
     text-transform: uppercase;
 }
 .lista-menu li a:hover{
-    text-decoration: underline;
+    color: #F1FA8C;
     
 }
 footer {
+    position: relative;
+    bottom: 0;
+    left: 35px;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
     background-color: #44475A;
     border-radius: 10px;
+    margin-top: 50px;
 
 }
 
@@ -90,4 +102,18 @@ footer {
 ul {
     list-style: none; 
     padding: 0; 
+}
+button{
+    padding: 6px 20px;
+    background-color: rgb(136, 136, 136);
+    border: 0;
+    border-radius: 15px;
+}
+button:hover{
+    box-shadow:0 3px 10px 0 #CCC;
+    text-shadow:0px 0px 5px #fff;
+    cursor: pointer;
+    font-size: large;
+    background-color: #FF79C6;
+    color: #F1FA8C;
 }

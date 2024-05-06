@@ -3,11 +3,9 @@
     padding: 0;
     margin: 0;
 }
-body{
-    text-align: center;
-}
+
 main{
-    margin: 20px;
+    margin: 50px;
 }
 
 
@@ -25,6 +23,7 @@ section{
 header{
     font-size: 30px;
     color: #F1FA8C;
+    text-align: center;
 }
 .genero{
     font-size: 30px;
@@ -45,12 +44,6 @@ img{
     border-radius: 10px;
 }
 
-button{
-    padding: 6px 20px;
-    background-color: rgb(136, 136, 136);
-    border: 0;
-    border-radius: 15px;
-}
 a{
     text-decoration: none;
     color: white;
