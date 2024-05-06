@@ -6,6 +6,9 @@
 body{
     text-align: center;
 }
+main{
+    margin: 20px;
+}
 header{
     font-size: 30px;
 }
