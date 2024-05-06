@@ -20,6 +20,15 @@ section{
     margin: 30px;
     gap: 25px;
 }
+
+.filme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
 header{
     font-size: 30px;
     color: #F1FA8C;
