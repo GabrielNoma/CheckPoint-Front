@@ -32,6 +32,9 @@ section{
     align-items: center;
     margin: 50px;
 }
+.cartaz h1{
+    text-align: center;
+}
 .cartaz img{
     width: 200px;
     height: 250px;

@@ -106,6 +106,7 @@ ul {
 button{
     padding: 6px 20px;
     background-color: rgb(136, 136, 136);
+    color: white;
     border: 0;
     border-radius: 15px;
 }
