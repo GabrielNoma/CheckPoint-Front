@@ -106,13 +106,20 @@ ul {
     list-style: none; 
     padding: 0; 
 }
+.destaques{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
 .cartaz{
-    position: relative;
-    width: 150px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 200px;
+    justify-content: center;
 }
 .cartaz img{
-    width: 100%;
+    width: 100px;
     border-radius: 5px;
 }
 .destaques{
@@ -121,5 +128,8 @@ ul {
 }
 label{
     color: #F1FA8C;
+}
+button{
+    border-radius: 5px;
 }
 
