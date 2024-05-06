@@ -14,4 +14,12 @@ main{
     background-color: #6272A4;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 10px;
+}
+.video{
+    width: 40%;
+    margin: 0 auto;
 }
