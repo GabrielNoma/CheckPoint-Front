@@ -1,0 +1,11 @@
+main{
+    margin-top:  50px;
+}
+.filmes{
+    display: flex;
+    justify-content: center;
+    background-color:#F1FA8C;
+    color:#44475A ;
+    border-radius: 10px;
+
+}

@@ -20,8 +20,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+
     background-color: #44475A;
+    margin-bottom: 10px;
 }
 nav{
     width: 90%;
@@ -83,7 +84,7 @@ footer {
 
 .footer-coluna {
     flex: 1; /* As colunas ocuparão a mesma largura */
-    margin: 0 10px; 
+    margin: 0 20px; 
 }
 
 .footer-coluna h4 {
@@ -102,7 +103,7 @@ footer {
 }
 .footer-coluna a:hover{
     color: #BD93F9;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 ul {
     list-style: none; 
@@ -122,4 +123,21 @@ button:hover{
     font-size: large;
     background-color: #FF79C6;
     color: #F1FA8C;
+}
+.cartaz{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.cartaz h1{
+    text-align: center;
+}
+.cartaz img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
 }
