@@ -7,6 +7,7 @@ body{
     text-align: center;
 }
 
+
 section{
     margin: 30px;
 }
@@ -18,9 +19,15 @@ section{
     margin: 10px;
     gap: 25px;
 }
-
 header{
     font-size: 30px;
+    color: #F1FA8C;
+}
+.genero{
+    font-size: 30px;
+    background-color: #44475A;
+    color: #F1FA8C;
+    border-radius: 20px;
 }
 
 h1{
