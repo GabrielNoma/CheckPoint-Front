@@ -26,16 +26,24 @@ section{
     justify-content: space-around;
     border-radius: 20px;
 }
-aside{
-    position:absolute ;
+.assinante{
+    position:fixed;
+    display: flex;
     top: 0;
     right: 0;
-    display: f;
-    background-color: black;
+    height: 90%;
+    background-color:#FF5555;
     border-radius:5px ;
     width: 125px;
-    word-wrap: break-word;
+    flex-wrap: wrap;
     font-size:small;
+    color: #282A36;
+    z-index: 10;
+}
+.assinante li{
+    margin-top: 20px;
+    text-transform: uppercase;
+
 }
 
 

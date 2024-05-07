@@ -1,0 +1,14 @@
+.series{
+    text-align: center;
+    background-color:#F1FA8C ;
+    color: #282A36;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
