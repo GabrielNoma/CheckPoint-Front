@@ -1,4 +1,4 @@
 const form = document.querySelector('#form');
-form.addEventListener('submit', function(post){
+form.addEventListener('submit', function(){
     alert('Comentário enviado');
 })
