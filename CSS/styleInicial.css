@@ -27,21 +27,16 @@ section{
     border-radius: 20px;
 }
 .assinante{
-    position:fixed;
     display: flex;
-    top: 0;
-    right: 0;
-    height: 90%;
     background-color:#FF5555;
     border-radius:5px ;
-    width: 125px;
-    flex-wrap: wrap;
     font-size:small;
-    color: #282A36;
-    z-index: 10;
+    color: #ffffff;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
 }
 .assinante li{
-    margin-top: 20px;
     text-transform: uppercase;
 
 }
